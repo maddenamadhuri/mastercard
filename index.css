@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 241, 249);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    width: 500px;
+    height: 260px;
+   
+    background: black;
+    color: white;
+    margin-left: 200px;
+    margin-top: 300px;
+    border-radius: 30px;
+    
+    margin-right: 200px;
+    margin-top :250px;
+}
+header{
+    display: flex;
+}
+.logo{
+   display: flex;
+   margin-left: 6px;
+    align-items: center;
+}
+.logo h5{
+    font-size: 22px;
+    font-weight: lighter;
+}
+header .chip{
+    margin-left: 150px;
+    margin-top: 13px;
+}
+
+
+.name-number{
+    margin-left: 25px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+   
+  
+}
+.name-number h2,h4,h3{
+     font-weight: lighter;
+      
+}
+.name-number h3{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.container .card-details{
+    display: flex;
+}
+.valid{
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+.valid h6{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.valid h5{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+
